@@ -1,17 +1,17 @@
 .App {
+  display: flex;
+  justify-content: center;
   text-align: center;
-  font-family: Arial, Helvetica, sans-serif;
-  padding-top: 50px;
+  font-family: Arial, Montserrat, sans-serif;
+  padding-top: 100px;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
-
 .carousel-container {
   display: flex;
-  justify-content: left;
   align-items: center;
   scroll-margin: 20px;
 }
@@ -23,16 +23,9 @@
   scroll-margin: 20px;
 }
 
-.navbar-component {
-  position: fixed;
-  display: left;
-  justify-content: left;
-  align-items: flex-start;
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: 500;
-}
-
 .movielist {
+  display: flex;
+  justify-content: center;
 }
 
 .movielistname {
