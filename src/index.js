@@ -16,7 +16,7 @@ const store = createStore(
 
 ReactDOM.render(
   <Provider store={store}>
-    <Movies />
+    <App />
   </Provider>,
   document.getElementById("root")
 );
