@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/tt-app-nu/static/css/main.06b3cddb.css",
+    "main.js": "/tt-app-nu/static/js/main.713ce538.js",
+    "index.html": "/tt-app-nu/index.html",
+    "main.06b3cddb.css.map": "/tt-app-nu/static/css/main.06b3cddb.css.map",
+    "main.713ce538.js.map": "/tt-app-nu/static/js/main.713ce538.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.06b3cddb.css",
+    "static/js/main.713ce538.js"
+  ]
+}
