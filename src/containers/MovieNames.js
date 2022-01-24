@@ -72,7 +72,7 @@ class MovieNames extends React.Component {
     return this.state.moviesArray.map((movie, key) => (
       <div key={key} className="movielist">
         <h2 className="movielistname">
-          <a href={movie.url} target="_blank">
+          <a href={movie.url} target="_blank" rel="noreferrer">
             "{movie.name}" {movie.dir} {movie.year} id {movie.id}{" "}
           </a>
           <span onClick={() => this.onMoveUp(key)}>&#x25B2;</span>
@@ -96,7 +96,7 @@ class MovieNames extends React.Component {
       return this.props.movies.map((movie, key) => (
         <div key={key} className="movielist">
           <h2 className="movielistname">
-            <a href={movie.url} target="_blank">
+            <a href={movie.url} target="_blank" rel="noreferrer">
               "{movie.name}" {movie.dir} {movie.year} id {movie.id}{" "}
             </a>
             <span onClick={() => this.onMoveUp(key)}>&#x25B2;</span>
